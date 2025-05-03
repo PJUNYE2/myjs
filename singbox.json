@@ -87,13 +87,13 @@
       "tag": "giffgaff",
       "type": "selector",
       "outbounds": ["{all}"],
-	  "filter": [{ "action": "include", "keywords": ["英国"] }
+	  "filter": [{ "action": "include", "keywords": ["英国"] }]
     },
     {
       "tag": "ai",
       "type": "urltest",
       "outbounds": ["{all}"],
-	  "filter": [{ "action": "include", "keywords": ["美国"] },
+	  "filter": [{ "action": "include", "keywords": ["美国"] }],
 	  "url": "http://www.gstatic.com/generate_204", 
 	  "interval": "10m", 
 	  "tolerance": 50
@@ -102,7 +102,7 @@
       "tag": "jp",
       "type": "urltest",
       "outbounds": ["{all}"],
-	  "filter": [{ "action": "include", "keywords": ["日本"] },
+	  "filter": [{ "action": "include", "keywords": ["日本"] }],
 	  "url": "http://www.gstatic.com/generate_204", 
 	  "interval": "10m", 
 	  "tolerance": 50
